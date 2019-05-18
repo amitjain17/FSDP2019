@@ -17,7 +17,6 @@ def mul(list2):
         c= c*i
     return c
 def large(list2):
-    
     list2.sort()
     c = list2[-1]
     return c
@@ -32,20 +31,17 @@ def sort(list2):
 def Remove_Duplicate(list2):
      a = set(list2)
      return a
-  
-
-
 
 list1 = []
 
 for i in range(5):
-    n = int(input("Enter the values in list"))
+    n = int(input("Enter the values in list"))      #enter the values
     list1.append(n)
     
 print(list1)
-print("Addition:",add(list1))
-print("Multiplication:",mul(list1))
-print("Largest number:",large(list1))
-print("Smallest number:",small(list1))
-print("sorted list:",sort(list1))
-print("Remove duplicate",list(Remove_Duplicate(list1)))
+print("Addition:",add(list1))                   #call the function addition
+print("Multiplication:",mul(list1))                 #call the function of multiplication
+print("Largest number:",large(list1))               #call the function of largest number
+print("Smallest number:",small(list1))          #call the function of smallest number
+print("sorted list:",sort(list1))               #call the function of sorting the list
+print("Remove duplicate",list(Remove_Duplicate(list1)))     #call the function to duplicate number

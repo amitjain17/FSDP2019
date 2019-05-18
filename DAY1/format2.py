@@ -6,7 +6,7 @@ Created on Tue May  7 18:49:06 2019
 """
 
 """Formatted String"""
-string = str(input( "Enter the String"))
+string = str(input( "Enter the String"))    #enter the string from user
 
-list1 = string.split()
-print("*".join(list1))
+list1 = string.split()      #split the string from where the space are coming
+print("*".join(list1))      #join the string with *

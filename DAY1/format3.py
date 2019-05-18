@@ -5,15 +5,7 @@ Created on Tue May  7 21:25:24 2019
 @author: NITS
 """
 
-string = str(input( "Enter the String"))
+string = str(input( "Enter the String"))        #enter the string
+new_string = "*".join(string)                            #join each leller with *
+print(new_string)                                    #print string
 
-list1 = string.split()
-#list2 = list1.split()
-n = " ".join(list1)
-
-print(n)
-
-x = str(list1).split()
-v = "*".join(x)
-print(x)
-print(v)

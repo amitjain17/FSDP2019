@@ -1,0 +1,20 @@
+[
+            {"Faculty1":{"First_name":"ASD",
+             "Last_name":"QWE",
+             "Photo": "http://adcfdfsd",
+             "Department":"ECE",
+             "Research_area": ["JKL","TYU"],
+             "Contact_details": [{"Phone_no.1": 98765544,"Phone_no.2":77488493},
+                                 {"Email_id":"ahsd"}]
+             }
+    }
+    ,{"Faculty2":
+            {"First_name":"ASD2",
+             "Last_name":"QWE2",
+             "Photo": "http://adcfdfsd12345",
+             "Department":"ECE",
+             "Research_area": ["JKLdrt","TYUyf"],
+             "Contact_details": [{"Phone_no.1": 987659544,"Phone_no.2":773455488493},
+                                 {"Email_id":"ahsd@gmail.com"}]}
+}
+]

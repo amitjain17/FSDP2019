@@ -7,13 +7,13 @@ Created on Fri May 10 20:09:58 2019
 dict1 ={}
 
 
-with open("romeo.txt",'rt') as rom:
-         line1 = rom.read()
-         list2 = line1.split("\n")
-         for item in list2:
+with open("romeo.txt",'rt') as rom:             #open the file using file handling
+         line1 = rom.readlines()            #read each line in the file
+         
+         for item in line1:                 #split each letter for count
             list1 = item.split()
             
-            for raw in list1:
+            for raw in list1:               #read each letter and count in the dictionary
                 if raw in dict1.keys():
                     dict1[raw] = dict1[raw] + 1
                 else:

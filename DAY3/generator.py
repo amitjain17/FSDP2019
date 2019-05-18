@@ -15,10 +15,10 @@ print(list1)
 tuple1 = tuple(list1)                   #convert list in tuple
 print(tuple1)
    """
-new_value= str(input("Enter the number"))
-new_value1 = new_value.split(',')
+new_value= str(input("Enter the number"))       #Enter the values 
+new_value1 = new_value.split(',')               #split the value with the referance of ','
 print(new_value1)
-tuple1 = tuple(new_value1)
+tuple1 = tuple(new_value1)                      #print the value in tuple format
 print(tuple1)
 
     

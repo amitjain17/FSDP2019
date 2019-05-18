@@ -6,7 +6,7 @@ Created on Wed May  8 22:55:53 2019
 """
 def reverse(x):
     #reverse_String[::-1]
-    return (x[ : :-1])
+    return (x[ : :-1])    #splicing the string
 
 
 n = str(input("Enter the string"))

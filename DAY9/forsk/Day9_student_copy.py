@@ -23,7 +23,7 @@ c = conn.cursor()
 
 # STEP 1
 # www.sqlite.org/datatype3.html
-c.execute ("""CREATE TABLE employee1s(
+c.execute ("""CREATE TABLE employee1s (
           id INTEGER,
           first  TEXT,
           last TEXT,
@@ -100,7 +100,7 @@ conn = mysql.connector.connect ( user='root', password='', host='localhost')
 c = conn.cursor()
 
 # STEP 0 if exists
-c.execute("DROP DATABASE employee;")
+c.execute("DROP DATABASE IF EXISTS employee;")
 
 # STEP 1
 c.execute("CREATE DATABASE employee;")

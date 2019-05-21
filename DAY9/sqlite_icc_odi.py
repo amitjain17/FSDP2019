@@ -6,7 +6,7 @@ Created on Sun May 19 20:53:21 2019
 """
 
 from bs4 import BeautifulSoup as bs       #import beautifulsoup library
-import pandas as pd                       #import pandas library for dataframe
+from pandas import DataFrame                       #import pandas library for dataframe
 import requests                           #import requests library
 import sqlite3                            #import sqlite library
 
@@ -39,7 +39,7 @@ for item in tab.findAll('tr'):           #find the 'tr' in the data
        A = []
 
 for j in B:
-    c.execute("INSERT INTO icc_odi VALUES("+j[0],j[1],j[2],j[3],j[4]+")")
+    c.execute("INSERT INTO icc_odi VALUES ("+str(j[0])+","+str(j[1])+","+str(j[2])+","+str(j[3])+","+str(j[4])+")")
         
 
 

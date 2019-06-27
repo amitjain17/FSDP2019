@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block code %}
+ <style>
+
+.content {
+  max-width: 700px;
+  margin: auto;
+  background:rgb;
+  padding: 90px;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: red;
+}
+.jumbotron {
+    background-color:#0F292F !important; 
+}
+</style>
+ <div class="content">
+ <div class="jumbotron jumbotron-fluid" style="opacity:0.98;">
+    <center>
+    <h3 style="color:#66FCF1">The Sale of the product  is {{ status }} Rupees.</h3>
+    <p></p>
+     <p></p>
+    <form action="http://127.0.0.1:5000/main">
+    <h4><input style="color:black" type="submit" value="Close" ></h4>
+</form>
+
+</center>
+    </div>
+
+{% endblock %}

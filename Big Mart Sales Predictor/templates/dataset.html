@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block code %}
+
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+
+.content {
+  max-width: 1195px;
+  margin: auto;
+  background:#0B0C10;
+  padding: 10px;
+}
+</style>
+ <div class="content">
+  <center>
+    <h1 style="color:#66FCF1">Sales Dataset</h1>
+    </center>
+        <p style="color:white">In the Big Mart Sales Dataset we have more than 10,000 rows and 12 coloumns.</p>
+        <h4 style="color:white"><b>In 12 coloums we have:</b></h4>
+        <p style="color:white">1.  Item_Id (Each item have unique Id and we have 1559 Item in the Big Mart Data)  Example:"FDA15","DRC01","FDN15","FDX07".</p>        
+        <p style="color:white">2.  Item_Weight (Each item have Specified weight which we find with the help of Item_id).</p>
+        <p style="color:white">3.  In the third column we have Item_Fat_Content in which two category will be there 1.Low Fat and 2. Regular.</p>
+        <p style="color:white">4.  In the data fourth column have Item_Presence in the Big Mart.</p>
+        <p style="color:white">5.  Next column have the Item_type Example: Dairy, Soft Drinks.</p>
+        <p style="color:white">6.  In the next column we have Item_MRP.</p>
+        <p style="color:white">7.  Outlet_Identifier will be the next column in which We have 10 different Outlet in data Example: OUT049, OUT018.</p>
+        <p style="color:white">8.  From the next column we know about the Establishment of the Outlet.</p>
+        <p style="color:white">9.  In the 9 column we know about the Oulet Size that the Outlet Size is Low, Medium or High.</p> 
+        <p style="color:white">10. In the Next column we know about the Outlet location that in which tier of city Outlet is present.</p>
+        <p style="color:white">11. Next column is of the Outlet_type that the Outlet is Supermarket ,Grocery Store etc.</p>
+        <p style="color:white">12. In Last column we know about the Item Outlet Sales in which we get the information about how much Item will be sell in a particular Outlet.</p>
+        <p style="color:white"><b> This Prediction will be done by Xgboost Class of Machine Learning.</b></p>
+        </div>
+</body>
+</html>
+{% endblock %}

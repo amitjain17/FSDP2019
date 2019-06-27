@@ -1,0 +1,80 @@
+{% extends "layout.html" %}
+{% block code %}
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+div.gallery {
+  margin: 40px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.content {
+  max-width: 1400px;
+  margin: auto;
+  background:#1F2833;
+  padding: 15px;
+}
+</style>
+</head>
+  <div class="content">
+  <div class="row">
+  <div class="column">
+<body>
+<center>
+<h2 style="color:#66FCF1">Welcome to Big Mart Sell Predictor</h2>
+</center>
+<div class="gallery">
+  <a target="_blank" href="static/home.jpg">
+    <img src="static/home.jpg" alt="Home Page" width="600" height="400">
+  </a>
+  <div class="desc"><a href="http://127.0.0.1:5000/home"><b>Home</b></a>
+</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="static/pred2.jpg">
+    <img src="static/pred2.jpg" alt="Sales Predictor" width="600" height="400">
+  </a>
+  <div class="desc"><a href="http://127.0.0.1:5000/main"><b>Predict Sales</b></a></div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="static/dataset.jpg">
+    <img src="static/dataset.jpg" alt="Dataset" width="600" height="400">
+  </a>
+  <div class="desc"><a href="http://127.0.0.1:5000/dataset"><b>Big Mart Sales Data</b></a></div>
+  </div>
+  <div class="gallery">
+  <a target="_blank" href="static/about.jpg">
+    <img src="static/about.jpg" alt="About info" width="600" height="400">
+  </a>
+  <div class="desc"><a href="http://127.0.0.1:5000/info"><b>About</b></a></div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="static/cus3.jpg">
+    <img src="static/cus3.jpg" alt="Contact Us" width="600" height="500">
+  </a>
+  <div class="desc"><a href="http://127.0.0.1:5000/contact"><b>Contact Us</b></a>
+</div>  
+</div>
+ </div>
+</div>
+</body>
+</html>
+{% endblock %}

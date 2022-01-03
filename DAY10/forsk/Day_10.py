@@ -1,4 +1,22 @@
 """
+#Changes in GIT command for removing the file in local system or from Remote repo.
+
+If you want to remove the file from the Git repository and the filesystem, use:
+
+git rm file1.txt
+git commit -m "remove file1.txt"
+But if you want to remove the file only from the Git repository and not remove it from the filesystem, use:
+
+git rm --cached file1.txt
+git commit -m "remove file1.txt"
+And to push changes to remote repo
+
+git push origin branch_name
+"""
+
+
+
+"""
 GIT Commands
 """
 # Why git and what git can do
